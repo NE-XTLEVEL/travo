@@ -12,7 +12,7 @@ Travo는 여행 계획에 어려움을 느끼는 사용자들을 위한 프롬�
 
 ## 1. Target&Goal
 
-- Target
+### Target
 <div align='center'>
   <img src='./Images/evidence1.png' width= "50%" height="auto"></img>
   <img src='./Images/evidence2.png' width= "50%" height="auto"></img>
@@ -20,7 +20,7 @@ Travo는 여행 계획에 어려움을 느끼는 사용자들을 위한 프롬�
 
 여행 계획에 불편함을 겪는 사용자들을 Target으로 하여 기획
 
-- Goal
+### Goal
 
 옵션을 제한적으로 선택하여 여행 계획을 추천 받는 기존 플랫폼들과 비교하여 자유도가 높은 사용자 맞춤형 여행 계획 서비스를 제작하여 여행 계획에 어려움을 겪는 사용자들에게 도움을 주는 것이 목적입니다.
 
