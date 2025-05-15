@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.FooterContainer {
+  margin-top: 10vh;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'KakaoBigSans';
+}
+.FooterButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  width: 38vw;
+  height: 14vh;
+  background-color: #b563e8;
+  font-size: 2.8vw;
+  color: white;
+  cursor: pointer;
+}
+.FooterLogo {
+  width: 4vw;
+  height: 4vw;
+}
+.FooterGitHubId {
+  font-size: 1.4vw;
+  font-weight: 800;
+}

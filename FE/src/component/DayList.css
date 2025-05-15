@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+.DayList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+.DayHeader {
+  width: 100%;
+  min-width: 250px;
+  max-width: 440px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.DayContent {
+  width: 100%;
+  min-width: 300px;
+  max-width: 440px;
+  padding: 0 6px;
+}
+.dayNum {
+  color: #ff4646;
+  font-size: 25px;
+  white-space: nowrap;
+}
+.dayBlank {
+  width: 60%;
+  height: 50px;
+}
+.addPlace {
+  display: flex;
+  color: #b0b0b0;
+  font-size: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 2px;
+  align-items: center;
+}
+.addButton {
+  font-weight: 800;
+  background: none;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  .DayList {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .DayList {
+    margin-left: 10px;
+  }
+}

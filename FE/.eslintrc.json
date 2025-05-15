@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "react/prop-types": "off", // 필요에 따라 규칙 설정
+    "react/react-in-jsx-scope": "off", // Next.js에서는 불필요
+    "semi": ["error", "always"], // 세미콜론 사용
+    "quotes": ["error", "single"], // 작은 따옴표 사용
+    "camelcase": [
+      "error",
+      {
+        "properties": "always"
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // 자동으로 React 버전 감지
+    }
+  }
+}

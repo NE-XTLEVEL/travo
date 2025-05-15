@@ -1,0 +1,5 @@
+# compiled output
+/__pycache__
+
+# 환경 변수 파일 (루트에서만)
+.env

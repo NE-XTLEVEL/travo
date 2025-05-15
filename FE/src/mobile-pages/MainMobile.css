@@ -1,0 +1,39 @@
+.mobile-body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/mainMobileBackground.svg');
+  background-size: cover; /* 전체 화면에 맞게 확대/축소 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  background-position: center; /* 중앙 정렬 */
+}
+.mobile-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.slick-slide > div > div {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.slick-slide > div > div > img {
+  width: 40%;
+  min-width: 200px;
+  height: auto;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-delay: 10ms;
+}

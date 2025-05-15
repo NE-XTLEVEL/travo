@@ -1,0 +1,20 @@
+.PlaceBin {
+  width: 62px;
+  height: 62px;
+  background-color: #ffffff;
+  border-radius: 62px;
+  margin: 20px;
+  border: 1px solid #B0B0B0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 30px;
+  right: 20px;
+}
+
+.ActivePlaceBin {
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,12 @@
+[
+  { "placeId_1": 1, "placeId_2": 2, "duration": "30" },
+  { "placeId_1": 2, "placeId_2": 3, "duration": "50" },
+  { "placeId_1": 3, "placeId_2": 4, "duration": "45" },
+  { "placeId_1": 5, "placeId_2": 6, "duration": "30" },
+  { "placeId_1": 6, "placeId_2": 7, "duration": "30" },
+  { "placeId_1": 7, "placeId_2": 8, "duration": "50" },
+  { "placeId_1": 9, "placeId_2": 10, "duration": "40" },
+  { "placeId_1": 11, "placeId_2": 12, "duration": "30" },
+  { "placeId_1": 12, "placeId_2": 13, "duration": "50" },
+  { "placeId_1": 13, "placeId_2": 14, "duration": "40" }
+]

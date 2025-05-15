@@ -1,0 +1,54 @@
+/*달력 전체 테두리*/
+.react-calendar {
+  border-radius: 10px;
+  border: 1px solid var(--festie-gray-400, #c8c8c8);
+}
+
+/*달력 상단의 월, 연도 표시 텍스트*/
+.react-calendar__navigation__label > span {
+  color: var(--festie-gray-800, #3a3a3a);
+  font-family: 'KakaoBigSans';
+  font-size: 20px;
+  font-weight: 00;
+  line-height: 140%;
+}
+/*주말(토, 일) 날짜 텍스트 색*/
+.react-calendar__month-view__days__day--weekend {
+  color: var(--festie-gray-800, #3a3a3a);
+}
+
+/*마우스, focus 배경색 하이라이트*/
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #e9c5ff;
+}
+/*날짜변경 시 배경색 빠르게 제거하기 위한 애니메이션 추가..*/
+.react-calendar__tile {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+/*오늘 날짜의 스타일 지정*/
+.react-calendar__tile--now {
+  background: white;
+  color: #b742ff;
+}
+/*선택된 날짜의 스타일 지정*/
+.selected-range {
+  background: #e9c5ff;
+  color: black;
+  font-weight: 700;
+}
+/*범위에 포함된 날짜 스타일 지정*/
+.react-calendar__title--range {
+  background: rgba(255, 122, 0, 0.2);
+  color: black;
+  border-radius: 0;
+}
+/*선택 시작, 종료 날짜 스타일 지정*/
+.react-calendar__title--rangeStart,
+.react-calendar__title--rangeEnd {
+  background: #e9c5ff;
+  color: black;
+  border-radius: 50%;
+}
