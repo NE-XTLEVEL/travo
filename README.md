@@ -6,7 +6,7 @@
  | ------------------------------------------------------------------------------------------------------------------------------------------------ |
  | [![demo](travo.png)](https://youtu.be)                                                                                                           |
 
-[https:](https://travo.kr/)
+[Travo link](https://travo.kr/)
 ## 1. Goal&Target
 ## 2. Key Features
 ## 3. Architecture
