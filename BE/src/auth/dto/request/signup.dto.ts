@@ -7,6 +7,6 @@ export class SignUpDto extends LoginDto {
     example: "John Doe",
     description: "The name of the user",
   })
-  @IsString({ message: "이름은 문자열이어야 합니다." })
+  @IsString({ message: "이름은 문자열이어야 합니다.\n" })
   name: string;
 }

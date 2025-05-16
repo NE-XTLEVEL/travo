@@ -132,7 +132,6 @@ const Main2 = () => {
               alt="Intro Image 3.3"
               draggable="false"
               autoPlay
-              loop
               muted
               playsInline
             />

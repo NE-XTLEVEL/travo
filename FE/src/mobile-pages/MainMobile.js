@@ -18,6 +18,7 @@ import { LuSend } from 'react-icons/lu';
 import intro1 from './assets/intro1.svg';
 import intro2 from './assets/intro2.svg';
 import intro3 from './assets/intro3.svg';
+import introImage3Video from '../component/assets/Intro_Image_3_Video.mp4';
 
 const MainMobile = () => {
   const navigate = useNavigate();
@@ -126,7 +127,28 @@ const MainMobile = () => {
           <img src={intro2}></img>
         </div>
         <div>
-          <img src={intro3}></img>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '30px',
+              alignItems: 'center',
+            }}
+          >
+            <img src={intro3} style={{ width: '24vw' }}></img>
+            <video
+              className="IntroVideo"
+              src={introImage3Video}
+              autoPlay
+              muted
+              playsInline
+              style={{
+                height: '40vw',
+                width: '40vw',
+                borderRadius: '14px',
+              }}
+            />
+          </div>
         </div>
       </Slider>
       <div className="mobile-bottom" style={{ height: '35%' }}>
@@ -212,7 +234,10 @@ const MainMobile = () => {
           </div>
         </div>
 
-        <div className="MainPrompt" style={{ padding: '3px', gap: '15px' }}>
+        <div
+          className="MainPrompt"
+          style={{ padding: '6px 10px 6px 6px', gap: '15px' }}
+        >
           <textarea
             className="MainPromptInput"
             style={{ height: '90%' }}

@@ -6,19 +6,19 @@ export class LoginDto {
     example: "example@email.com",
     description: "The email of the user",
   })
-  @IsEmail({}, { message: "유효한 이메일 주소를 입력하세요." })
+  @IsEmail({}, { message: "유효한 이메일 주소를 입력하세요.\n" })
   email: string;
 
   @ApiProperty({
     example: "123456",
     description: "The password of the user",
   })
-  @IsString({ message: "비밀번호는 문자열이어야 합니다." })
+  @IsString({ message: "비밀번호는 문자열이어야 합니다.\n" })
   @MinLength(6, {
-    message: "비밀번호는 최소 6자 이상이어야 합니다.",
+    message: "비밀번호는 최소 6자 이상이어야 합니다.\n",
   })
   @MaxLength(20, {
-    message: "비밀번호는 최대 20자 이하이어야 합니다.",
+    message: "비밀번호는 최대 20자 이하이어야 합니다.\n",
   })
   password: string;
 }
