@@ -6,7 +6,7 @@ Travo는 여행 계획에 어려움을 느끼는 사용자들을 위한 프롬�
 
 | **Demo (25. 05. 16.)**                         |
 | ---------------------------------------------- |
-| [![demo](./Images/home.png)]([https://youtu.be](https://www.youtube.com/watch?v=PJhLrRHBG-M)) |
+| [![demo](./Images/home.png)](https://www.youtube.com/watch?v=PJhLrRHBG-M) |
 
 > 위 이미지를 클릭하면 데모 영상을 확인할 수 있습니다. 또는 [Travo](https://travo.kr)에 접속하여 직접 사용해보실 수 있습니다.
 
